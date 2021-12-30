@@ -118,7 +118,7 @@
 - Latest Version【推荐】
 
 ```
-wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/Krito-LiXIng/v2ray-agent/dev/install.sh" && chmod 700 /root/install.sh && /root/install.sh
+bash <(curl -s -L https://raw.githubusercontent.com/Krito-LiXIng/v2ray-agent/dev/install.sh)
 ```
 
 
