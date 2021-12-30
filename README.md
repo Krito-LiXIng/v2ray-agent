@@ -115,8 +115,16 @@
 
 - 支持快捷方式启动，安装完毕后，shell输入【**vasma**】即可打开脚本，脚本执行路径[**/etc/v2ray-agent/install.sh**]
 
-- Latest Version【推荐】
-
+- Latest Version【推荐】（用1或2命令）
+先安装 wget 命令
+```
+yum install wget -y
+```
+1：
+```
+wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/Krito-LiXIng/v2ray-agent/dev/install.sh" && chmod 700 /root/install.sh && /root/install.sh
+```
+2：
 ```
 bash <(curl -s -L https://raw.githubusercontent.com/Krito-LiXIng/v2ray-agent/dev/install.sh)
 ```
